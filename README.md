@@ -1,5 +1,5 @@
 # URI
-Problemas resolvidos do site URI Online Judge \n
+Problemas resolvidos do site URI Online Judge 
 A maioria com comentários explicando o raciocínio, 
-mas nem sempre serão exatos \n
+mas nem sempre serão exatos
 Obrigada por visitar! :) 
