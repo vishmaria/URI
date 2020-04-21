@@ -16,4 +16,5 @@ for i in range (jogadores):
 print('Pontos de Saque: {:.2f} %.'.format((pSaque / saques)*100))
 print("Pontos de Bloqueio: {:.2f} %.".format((pBloq / bloqueios)*100))
 print("Pontos de Ataque: {:.2f} %.".format((pAtaque / ataques)*100))
-print("ab")             
+print("b")             
+print("hellooooo")
