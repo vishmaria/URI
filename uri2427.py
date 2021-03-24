@@ -5,6 +5,7 @@ cont = 0
 while lado >= 2:
     lado /= 2
     cont += 1
+    #pedacos *= 4
 
 print (4**cont)
 
