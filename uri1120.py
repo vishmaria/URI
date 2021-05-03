@@ -4,7 +4,6 @@ negociacao = None
 while digitoFalho != '0' and negociacao != '0': 
     digitoFalho, negociacao = input().split()
 
-    for i in range(len(negociacao)):
-        if negociacao[]
+    correcao = int(negociacao.replace(digitoFalho, ''))
+    print(correcao)
 
-    print(negociacao.replace(digitoFalho, ''))
