@@ -1,15 +1,17 @@
 while True:
     try:
         frase = input().upper().split('-')
-        print(frase)
-        p = 'COBOL'
-        for i in range(len(frase)):
-            if 'C' in frase[i]or 'O'*2 in frase[i] or 'B' in frase[i] or 'L' in frase[i]: 
-                r = ("GRACE HOPPER")
-                
-            else:
-                r = ("BUG") 
-        print(r) 
+        verifica=['C','O','B','O','L']
+        for palavra in frase:
+            for i in verifica:
+                if i in palavra:
+                    verifica.remove(i)
+
+        if verifica==[]:
+            print("GRACE HOPPER")
+        else:
+            print("BUG")
+
+
     except EOFError:
         break
-    
